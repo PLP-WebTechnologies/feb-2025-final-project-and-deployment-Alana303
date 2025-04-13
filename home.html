@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Blog</title>
+    <!-- Bootstrap CDN links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">My Blog</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="home.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html"><i class="fas fa-info-circle"></i> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero text-center text-white">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to My Blog</h1>
+            <p class="fade-in">Your go-to place for insightful articles and stories</p>
+            <a href="#blog-posts" class="btn btn-light btn-lg fade-in">Explore Blog Posts</a>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="blog-posts" class="container mt-5">
+        <h2 class="text-center mb-5">Latest Blog Posts</h2>
+        <div class="row">
+            <!-- Blog Post Card 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/image3.jpg" class="card-img-top" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">The Power of Coding</h5>
+                        <p class="card-text">In this post, I will explore the transformative impact of coding and why it is an essential skill for everyone...</p>
+                        <a href="./post1.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post Card 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/image1.jpg" class="card-img-top" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Learning Web Design</h5>
+                        <p class="card-text">Want to become a web designer? Here are the key steps you should take to get started in the world of web design...</p>
+                        <a href="./post2.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Post Card 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="./images/image2.jpg" class="card-img-top" alt="Blog Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Building a Personal Website</h5>
+                        <p class="card-text">In this post, I’ll guide you step-by-step on how to build your very own personal website from scratch...</p>
+                        <a href="./post3.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

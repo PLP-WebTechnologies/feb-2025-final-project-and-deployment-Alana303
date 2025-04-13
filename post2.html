@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Web Design & Building a Personal Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #151269;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      transition: background-color 0.8s ease-in-out, color 0.5s ease;
+      font-weight: bolder;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: black;
+    }
+    .post-container {
+      max-width: 850px;
+      margin: auto;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      color: black;
+    }
+    .post-container img {
+      border-radius: 8px;
+      transition: transform 0.5s ease;
+    }
+    .post-container img:hover {
+      transform: scale(1.05);
+    }
+    .author-card {
+      display: flex;
+      align-items: center;
+      margin-top: 40px;
+      gap: 20px;
+      background: #fef6e4;
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .author-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    .related-posts ul {
+      list-style: none;
+      padding: 0;
+    }
+    .related-posts li a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    .related-posts li a:hover {
+      text-decoration: underline;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #cc5803;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .back-link:hover {
+      transform: translateX(-5px);
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      background-color: black;
+    }
+    button {
+      background-color: #ffa552;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #cc5803;
+    }
+  </style>
+</head>
+<body>
+  <section class="hero" data-aos="fade-down">
+    <h1>Learning Web Design & Building a Personal Website</h1>
+    <p>Published on April 13, 2025 by Jeff Amayo</p>
+  </section>
+
+  <main class="post-container" data-aos="fade-up">
+    <h2>Why Learn Web Design?</h2>
+    <p>Web design is the foundation of a compelling online presence. Understanding design principles empowers you to build user-friendly, accessible, and aesthetically pleasing websites that captivate visitors.</p>
+    <img src="./images/image1.jpg" alt="Web Design Process" class="img-fluid rounded mb-4" data-aos="zoom-in">
+
+    <h2>Steps to Build Your Personal Website</h2>
+    <ul>
+      <li>Start with HTML & CSS to create structure and style</li>
+      <li>Learn responsive design to support multiple devices</li>
+      <li>Incorporate JavaScript to add interactivity</li>
+      <li>Host your site and create a custom domain</li>
+    </ul>
+
+    <p>Whether you're a student, freelancer, or job-seeker, a personal website serves as your digital resume, showcasing your skills, projects, and professional story in a unique way.</p>
+
+    <section class="author-card" data-aos="fade-right">
+      <img src="./images/image4.jpg" alt="Jeff Amayo">
+      <div>
+        <h4>Jeff Amayo</h4>
+        <p>Front-End Developer & Blogger. Passionate about design, development, and helping others grow their digital footprint.</p>
+      </div>
+    </section>
+
+    <section class="related-posts" data-aos="fade-up">
+      <h3>Related Posts</h3>
+      <ul>
+        <li><a href="./post1.html">The Power of Coding</a></li>
+        <li><a href="./post3.html">Building a Personal Website</a></li>
+      </ul>
+    </section>
+
+    <a href="home.html" class="back-link">← Back to Home</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jeff Amayo | All Rights Reserved</p>
+    <button onclick="toggleMode()">Toggle Light/Dark Mode</button>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function toggleMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+</html>
