@@ -23,3 +23,32 @@ A personal website is a great way to showcase your skills, portfolio, and online
 
 ## 📂 Project Structure
 
+- `index.html` – Main page for the personal website.
+- `posts/` – Directory containing individual blog post pages.
+- `css/` – Folder for custom CSS styles.
+- `js/` – Folder for custom JavaScript code.
+- `images/` – Folder for images used across the site.
+
+---
+
+## ✨ Demo  
+[View Live Site](https://PLP-WebTechnologies.github.io/feb-2025-final-project-and-deployment-Alana303)
+
+⚠️ **Make sure your repository is published via GitHub Pages if you want to go live.**
+
+---
+
+## 📢 Author  
+**Jeff Amayo**  
+Front-End Developer & Blogger  
+📧 [alanaesmeralda045@gmail.com](mailto:alanaesmeralda045@gmail.com)
+
+---
+
+## 🚀 Project Setup
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Alana303.git
