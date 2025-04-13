@@ -1,25 +1,25 @@
-# Final Project and Deployment
+# 🌐 Building a Personal Website
 
-## Objectives
-Build a fully functional web application.
-Apply HTML, CSS, and JavaScript concepts learned.
-Deploy the project using GitHub Pages, Netlify, or Vercel.
+This project is a clean, responsive, and personal portfolio website built using **HTML**, **CSS**, and **Bootstrap 5**. It features a blog section, a professional profile, and interactive UI elements.
 
-## Instructions
-Choose one of the following project ideas:
-Blog Website: Implement a multi-page site with navigation.
-Ecommerce Website: Implement a multi-page site with navigation.
+## 🚀 Project Overview
 
->[!NOTE]
-> - Include at least:
-> - A responsive design.
-> - JavaScript interactivity.
-> - A deployment link.
+A personal website is a great way to showcase your skills, portfolio, and online presence. This project serves as a central hub to display who I am, what I do, and the work I’m passionate about.
 
-## Tasks
+## 🛠️ Built With
 
-Create a well-structured HTML5 document.
-Use at least 5 different HTML elements.
-Ensure semantic correctness.
+- HTML5
+- CSS3
+- Bootstrap 5
+- AOS (Animate on Scroll Library)
 
-Good luck and happy coding! 🚀💻
+## 📸 Features
+
+- 🎯 Responsive design for desktop and mobile
+- 📝 Blog section with individual post pages
+- 👤 Author card and related post suggestions
+- 🌗 Light/Dark Mode Toggle (JavaScript)
+- ⚡ AOS-powered smooth scroll animations
+
+## 📂 Project Structure
+
